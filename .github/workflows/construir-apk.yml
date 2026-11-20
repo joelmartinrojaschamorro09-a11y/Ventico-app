@@ -1,5 +1,4 @@
 # Construye el APK de Ventico App en los servidores de GitHub.
-# Se ejecuta cada vez que subes cambios, o a mano desde la pestaña Actions.
 name: Construir APK
 
 on:
@@ -16,10 +15,10 @@ jobs:
           distribution: temurin
           java-version: "17"
       - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.14.3"
       - name: Compilar APK
-        run: |
-          chmod +x gradlew
-          ./gradlew assembleDebug --no-daemon
+        run: gradle assembleDebug --no-daemon
       - name: Guardar el APK para descargar
         uses: actions/upload-artifact@v4
         with:
