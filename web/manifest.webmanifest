@@ -1,0 +1,17 @@
+{
+  "name": "Ventico App",
+  "short_name": "Ventico",
+  "description": "Ventas y caja para emprendimientos, desde el celular.",
+  "lang": "es-CO",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#faf5f4",
+  "theme_color": "#c42442",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
