@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.Ventico" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/fondo</item>
+        <item name="android:colorPrimary">@color/acento</item>
+        <item name="android:colorAccent">@color/acento</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#FF2A1A1D</item>
+    </style>
+</resources>
