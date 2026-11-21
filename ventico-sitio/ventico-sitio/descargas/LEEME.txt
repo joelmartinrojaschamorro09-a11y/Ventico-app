@@ -1,2 +1,0 @@
-Pon aquí el APK construido por GitHub Actions con el nombre exacto:  VenticoApp.apk
-El botón "Descargar para Android" de la página apunta a descargas/VenticoApp.apk
